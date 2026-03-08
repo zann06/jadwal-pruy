@@ -129,7 +129,7 @@ export default function IntroScreen() {
               <h1 className="text-4xl font-bold text-white mb-2">
                 Jadwal <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">Pruy</span>
               </h1>
-              <p className="text-white/70 text-lg">Atur kampusmu dengan stylish! ✨</p>
+              <p className="text-white/70 text-lg">Atur kampusmu dengan stylish!</p>
             </motion.div>
 
             {/* Name Input */}
@@ -141,7 +141,7 @@ export default function IntroScreen() {
               className="bg-white/10 backdrop-blur-md rounded-3xl p-6 shadow-2xl border border-white/20"
             >
               <label className="block text-white/90 text-sm font-medium mb-3">
-                Siapa Namamu? 👇
+                Siapa Namamu? 
               </label>
               <input
                 type="text"
@@ -212,7 +212,7 @@ export default function IntroScreen() {
               transition={{ delay: 0.2 }}
               className="text-3xl font-bold text-white mb-2"
             >
-              Halo, {name}! ✨
+              Halo, {name}! 
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
