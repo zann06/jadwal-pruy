@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useUser } from '../context/UserContext';
@@ -186,6 +187,18 @@ export default function IntroScreen() {
                 </motion.div>
               ))}
             </motion.div>
+
+            {/* Copyright */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1 }}
+              className="text-center mt-8"
+            >
+              <p className="text-white/40 text-xs">
+                Made by <a href="https://github.com/zann06" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white/70 transition-colors">@frrdznnnn</a>
+              </p>
+            </motion.div>
           </motion.div>
         ) : (
           <motion.div
@@ -245,6 +258,18 @@ export default function IntroScreen() {
                   className="w-3 h-3 bg-white/70 rounded-full"
                 />
               ))}
+            </motion.div>
+
+            {/* Copyright for step 1 */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1 }}
+              className="text-center mt-8"
+            >
+              <p className="text-white/40 text-xs">
+                Made by <a href="https://github.com/zann06" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white/70 transition-colors">@frrdznnnn</a>
+              </p>
             </motion.div>
           </motion.div>
         )}
